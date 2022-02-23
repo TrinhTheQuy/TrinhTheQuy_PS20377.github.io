@@ -1,0 +1,125 @@
+.noidung{
+    height: 1000px;
+    width: 100%;
+}
+.boxleft{
+    background-color:#FDF5E6;
+    float: left;
+    width: 75%;
+    height: 100%;
+}
+.sanpham{
+    border: 1px solid black;
+    float: left;
+    width: 350px;
+    height: 450px;
+    border-radius:5px;
+    margin:25px;
+    margin-right: 40px;
+    margin-left: 30px;
+    padding:5px;
+    text-align:center;
+    position:relative;
+}
+
+.sanpham>.name{
+    font-variant:small-caps;
+    color:darkolivegreen;
+    font-size: 20px;
+}
+.sanpham>.image{
+    max-width: 100%;
+    height: 400px;
+    margin-bottom: 10px;
+
+}
+.sanpham>.gia{
+    position:absolute;
+    left:60px;
+    bottom:5px;
+    font-size:22px;
+    color:black;
+}
+.sanpham>.icons{
+    position:absolute;
+    right:-7px;
+    bottom:5px;
+    width:50px;
+}
+.sanpham>.icons>img{
+    width: 50%;
+    height: 50%;
+}
+.boxright{
+    border-radius: 2px;
+    float: left;
+    width: 25%;
+    height: 100%;
+    background-color: #94d3b5;
+}
+.menudung{
+    width:300px;
+    padding: 0px;
+    list-style: none;
+}
+.menudung a{
+    line-height: 50px;
+    display: block;
+    border-bottom: 1px solid orangered;
+    color:rgb(82, 6, 19);
+    font-size:20px;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+}
+.menudung a:hover{
+    border-bottom: 1px dotted white;
+    color: white;
+    font-weight: bold;
+}
+.thongtin{
+    position: relative;
+    margin-top: 450px;
+    line-height: 25px;
+}
+.chinhsua{
+    width: 150px;
+    height: 50px;
+    color: white;
+    border: 2px solid red;
+    border-radius: 5px;
+    position: absolute;
+    font-size: 30px;
+    margin: 250px 550px;
+    background-color: red;
+    /* padding: 15px; */
+    
+}
+.thietke{
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    margin-top: 350px;
+    right: 100px;
+    display:inline;
+}
+.thietke img {
+    width: 50px;
+    height: 50px; 
+} 
+.thietke>p{
+    font-size: larger;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;  
+    line-height: 20px; 
+    
+}
+.chinhsua>a{
+    padding-left: 10px;
+    font-size: 25px;
+    text-decoration: none;
+}
+.chinhsua>a:hover{
+    color: cadetblue;
+}
+
+
